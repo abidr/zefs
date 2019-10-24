@@ -3,6 +3,14 @@
 ZeFS is a modern HTTP file server built using DirectoryLister as source. It has sorting features and also movie database.
 [Demo](http://abidportfolio.ezyro.com/zefs)
 
+### Features
+
+- SpeedTest
+- OMDB (Display information about each movie)
+- Modern UI
+- Search option
+- Sorting
+
 ### Requirements
 
 - PHP 5.5+
