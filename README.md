@@ -17,12 +17,6 @@ ZeFS is a modern HTTP file server built using DirectoryLister as source. It has 
 4. Add your site title, [OmDB API Key](http://www.omdbapi.com/apikey.aspx) and [speedtestcustom url](https://account.speedtestcustom.com)
 5. You're done!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abidr/zefs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you face any problem then feel free to open an issue or mail me at abid.nnt.g@gmail.com.
