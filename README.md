@@ -1,13 +1,19 @@
-## Welcome to GitHub Pages
+## Documentation
 
 You can use the [editor on GitHub](https://github.com/abidr/zefs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ZeFS is a modern HTTP file server built using DirectoryLister as source. It has sorting features and also movie database.
+[Demo](http://abidportfolio.ezyro.com/zefs)
 
-### Markdown
+### Requirements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- PHP 5.5+
+- Apache Web Server
+- Directory Indexing Enabled
 
+### Installation
+
+Download the latest version as zip.
 ```markdown
 Syntax highlighted code block
 
