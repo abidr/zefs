@@ -1,0 +1,351 @@
+/* ---------------------------------------------------------------------------------------------- */
+/* -----| GENERAL |------------------------------------------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------- */
+
+body {
+    padding: 0px 0 0;
+	padding-top: 90px !important;
+	font-family: 'Roboto', sans-serif;
+
+}
+.navbar-brand {
+  margin: 0 !important;
+}
+.navbar-brand a {
+  color: #fff !important;
+}
+.navbar-brand a small {
+  font-size: 12px;
+}
+#DataTables_Table_0 {
+  width: 100%;
+}
+.dataTables_filter label {
+  display: none;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: 0;
+}
+#DataTables_Table_0_length {
+  margin-top: 5px;
+}
+.vhidden {
+  display: none;
+}
+
+body.breadcrumb-fixed {
+    padding-top: 56px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+#page-top-link {
+	display:none;
+}
+
+.bdixit-color {
+	background:#323f54 !important;
+}
+
+.button-block {
+    color: #fff;
+    display: block;
+    padding: 30px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+	transition:0.4s;
+}
+
+.button-block:hover {
+	box-shadow: 0px 3px 10px #666;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----| HEADER |----------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#page-navbar .navbar-text {
+    display: block;
+    float: left;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* -----| DIRECTORY LISTER |--------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+
+#directory-list-header {
+    font-family: 'Cutive Mono', monospace, serif;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+#directory-listing {
+    font-family: 'Cutive Mono', monospace, serif;
+}
+
+#directory-listing li {
+    position: relative;
+}
+
+.file-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-name i {
+    color: #555;
+}
+
+.file-info-button,
+.web-link-button {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 100%;
+    padding: 6px 10px !important;
+    position: absolute !important;
+    top: 4px;
+}
+
+.web-link-button i,
+.file-info-button i {
+    color: #999;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* -----| FOOTER |------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+
+.footer {
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* -----| CHECKSUM MODAL |----------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+
+#file-info {
+    margin: 0;
+}
+
+#file-info .table-title {
+    font-weight: bold;
+    text-align: right;
+}
+
+#file-info .md5-hash,
+#file-info .sha1-hash {
+    font-family: 'Cutive Mono', monospace, serif;
+}
+
+.bdixit-file-name {
+  width: 70%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----| MOVIE DATABASE |--------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+.movie-database {
+  background: #34495E;
+  padding: 20px;
+  border-radius: .4em;
+  margin: 20px 0;
+  color: #ddd;
+}
+
+.movie-database h4 {
+  font-weight: bold;
+  color:#fff;
+  margin-top: 10px;
+}
+
+.movie-database img {
+  max-width: 100%;
+}
+
+.rating-icon {
+  text-align: center;
+}
+
+.rating-icon a {
+  color: #ddd;
+}
+
+.rating-icon img {
+  width: 35px;
+}
+
+.rating-caption p span {
+  color: #b6d1ec;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----| RESPONSIVE |------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+  width:100%;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+/* .rwd-table th {
+  display: none;
+} */
+/* .rwd-table td {
+  display: block;
+} */
+.rwd-table a {    
+	word-break: break-all;
+  color:#fff;
+      font-weight: 500;
+}
+
+#page-top-download-all {
+	display:block;
+}
+
+#page-top-download-all li {
+	display:inline-block;
+}
+
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+/* .rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+} */
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .button-block h2 {
+		font-size: 16px !important;
+		margin:0;
+	}
+	.block-row .col {
+		width:100%;
+		    flex: auto;
+	}
+	.block-row .col .button-block {
+		padding: 15px 0;
+	}
+}
+@media (max-width: 565px) {
+
+.rwd-table th {
+  padding: 10px;
+  font-size: 12px;
+}
+.rwd-table td {
+  font-size: 12px;
+}
+.movie-info-title {
+  text-align: center;
+}
+.rwd-table a {
+  font-size: 12px;
+}
+.movie-database {
+  font-size: 12px;
+}
+.movie-database h4 {
+  font-size: 20px;
+}
+.movie-database h6 {
+  font-size: 13px;
+}
+.rating-caption p {
+  margin-bottom: 8px;
+}
+
+.rating-icon a small {
+  display: none;
+}
+.movie-database img.cover {
+  width: 75%;
+}
+
+.no-mob {
+  display: none !important;
+}
+  
+#page-top-download-all {
+	display:block;
+}
+
+#page-top-download-all li {
+	display:inline-block;
+	width: 49%;
+}
+#page-top-download-all a {
+	    display: inherit;
+}
+}
+@media (max-width: 860px) {
+  .button-block h2 {
+		font-size: 16px !important;
+		margin:0;
+	}
+	.block-row .col .button-block {
+		padding: 15px 0;
+	}
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #46637f;
+  background: #34495E !important;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}
