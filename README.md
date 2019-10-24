@@ -14,15 +14,8 @@ ZeFS is a modern HTTP file server built using DirectoryLister as source. It has 
 1. Download the latest version
 2. Extract in your server root directory or htdocs
 3. Open config.json
-```markdown
-{
-   "SiteTitle": "File Server",
-   "omdbAPI": "eff10cce",
-   "speedtestURL": "http://sample.speedtestcustom.com"
-}
-
-[Link](url) and ![Image](src)
-```
+4. Add your site title, [OmDB API Key](http://www.omdbapi.com/apikey.aspx) and [speedtestcustom url](https://account.speedtestcustom.com)
+5. You're done!
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
