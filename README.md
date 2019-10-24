@@ -1,7 +1,5 @@
 ## Documentation
 
-You can use the [editor on GitHub](https://github.com/abidr/zefs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
 ZeFS is a modern HTTP file server built using DirectoryLister as source. It has sorting features and also movie database.
 [Demo](http://abidportfolio.ezyro.com/zefs)
 
@@ -13,21 +11,15 @@ ZeFS is a modern HTTP file server built using DirectoryLister as source. It has 
 
 ### Installation
 
-Download the latest version as zip.
+1. Download the latest version
+2. Extract in your server root directory or htdocs
+3. Open config.json
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+{
+   "SiteTitle": "File Server",
+   "omdbAPI": "eff10cce",
+   "speedtestURL": "http://sample.speedtestcustom.com"
+}
 
 [Link](url) and ![Image](src)
 ```
