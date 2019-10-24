@@ -10,6 +10,7 @@ ZeFS is a modern HTTP file server built using DirectoryLister as source. It has 
 - Modern UI
 - Search option
 - Sorting
+- And much more
 
 ### Requirements
 
